@@ -1,7 +1,7 @@
 QUIZ APPLICATION
 Welcome to the Quiz Application, a comprehensive platform designed to test your knowledge across three categories: Java, Operating Systems (OS), and C programming. 
 This application features a robust login-signup system, a versatile question service for managing questions, and a dynamic quiz service that leverages the question service to generate quizzes, calculate scores, and more.
-
+It is a robust quiz platform built with Java, utilizing Spring Boot and Spring Cloud for a microservices architecture. 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 GETTING STARTED
@@ -49,7 +49,8 @@ Login-Signup Service:
 
 To create a new user i.e sign up -
 POST>http://localhost:8083/users-ws/users
-Ex. {
+Ex. 
+{
     "firstName": "My",
     "lastName" : "Account",
     "password" : "555666777888",
@@ -60,7 +61,8 @@ Ex. {
 
 To login-
 POST>http://localhost:8083/users-ws/users/login
-Ex. {
+Ex. 
+{
     "email" : "MytestAccount2024@gmail.com",
     "password" : "555666777888"
 }
@@ -88,7 +90,8 @@ GET>http://localhost:8083/question-service/question/category/java
 
 To post a question(add a question to DB)-
 POST>http://localhost:8083/question-service/question/add
-Ex. {
+Ex. 
+{
     "category": "Java",
     "question": "What created Java?",
     "option_1": "A. Bjarne",
@@ -103,7 +106,8 @@ Ex. {
 
 To update a question in the DB- PUT /question-service/question/update/{category}/{id}
 PUT>http://localhost:8083/question-service/question/update/java/121
-Ex. {
+Ex. 
+{
     "category": "Java",
     "question": "What created Java?",
     "option_1": "A. Bjarne",
@@ -154,7 +158,8 @@ To get the score -POST /quiz-service/quiz/submit/{id}
 POST>http://localhost:8083/quiz-service/quiz/submit/37
 
 For this I need to give the id and my responses
-eX. [
+eX. 
+[
     {
     "id": 48,
     "response":"// This is a comment"
@@ -250,6 +255,8 @@ Quiz Service
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CONTACT
-Contact
 For any questions, feedback, or contributions, please feel free to reach out. You can contact me through-
 Email: [anukulmaurya18@gmail.com](mailto:anukulmaurya18@gmail.com)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+While this project was inspired by a comprehensive tutorial, it has been significantly expanded and refined with my own work.
