@@ -259,4 +259,4 @@ For any questions, feedback, or contributions, please feel free to reach out. Yo
 Email: [anukulmaurya18@gmail.com](mailto:anukulmaurya18@gmail.com)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-While this project was inspired by a comprehensive tutorial, it has been significantly expanded and refined with my own work.
+While this project was inspired by a short tutorial, it has been significantly expanded and refined with my own work.
