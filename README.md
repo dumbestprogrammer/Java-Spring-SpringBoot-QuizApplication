@@ -300,4 +300,7 @@ For any questions, feedback, or contributions, please feel free to reach out. <b
 **Email:** *[anukulmaurya18@gmail.com](mailto:anukulmaurya18@gmail.com)*
 
 <br> <br>
-- **While this project was inspired by a short tutorial, it has been significantly expanded and refined with my own work.**
+
+<hr>
+
+**While this project was inspired by a short tutorial, it has been significantly expanded and refined with my own work.**
