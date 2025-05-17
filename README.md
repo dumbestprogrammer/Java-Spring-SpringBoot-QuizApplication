@@ -238,7 +238,7 @@ For this I need to give the id and my responses.
 <br>
 <br>
 
-
+<!--
 
 ## DEPENDENCIES
 
@@ -293,6 +293,7 @@ For this I need to give the id and my responses.
 
 <br> <br>
 
+-->
 
 ## CONTACT
 For any questions, feedback, or contributions, please feel free to reach out. <br>  You can contact me through-
